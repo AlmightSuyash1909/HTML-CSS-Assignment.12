@@ -1,0 +1,123 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*OWN*/
+
+.header{
+    background-color:#051350;
+    text-align:center;
+}
+a{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    padding:10px;
+}
+.div1{
+    text-align:center;
+}
+.h1{
+    font-size:25px;
+    margin:15px;
+}
+.p1 , .p3{
+    font-size:23px;
+    margin:15px;
+    text-align:center;
+}
+.p2{
+    background-color:#99D8CA;
+    box-sizing:border-box;
+    width: 150px;
+    height:150px;
+    padding:10px;
+    border:5px solid black;
+    border-radius:7px;
+    margin:35px auto;
+    box-shadow:inset 10px 10px 0px 0px #5873E2,inset -10px -10px 0px 0px #5873E2,
+    0 0 0 15px #90FFA9;   
+}
+hr{
+    width: 550px;
+    margin: 30px;
+}
+.div2{
+    box-sizing:border-box;
+    width:660px;
+    border:2px solid black;
+    margin:20px auto;
+}
+span{
+    box-sizing:border-box;
+     display:inline-block;
+     width:200px;
+     height:180px;
+     background-color:#5873E2;
+     margin:10px;
+}
+.div3{
+    box-sizing:border-box;
+    width:660px;
+    border:2px solid black;
+    margin:20px auto;
+}
+.two{
+    box-sizing:border-box;
+    display:inline-block;
+    width:200px;
+    height:180px;
+    background-color:#5873E2;
+    border:2px solid black;
+    margin: 10px;
+}
+.section,.section2{
+    width:750px;
+    border-bottom: 2px dotted black;
+    margin:20px auto;
+}
